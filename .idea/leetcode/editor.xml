@@ -59,6 +59,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ConstructTheRectangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ConstructTheRectangle.java" />
+              <option name="questionId" value="492" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java" />
+              <option name="questionId" value="11" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DecodeWays.java">
           <value>
             <LeetcodeEditor>
@@ -107,11 +123,43 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/Permutations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/Permutations.java" />
+              <option name="questionId" value="46" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/PermutationsIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/PermutationsIi.java" />
+              <option name="questionId" value="47" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/TenthLine.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/TenthLine.java" />
               <option name="questionId" value="195" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueBinarySearchTrees.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueBinarySearchTrees.java" />
+              <option name="questionId" value="96" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ValidateBinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/ValidateBinarySearchTree.java" />
+              <option name="questionId" value="98" />
             </LeetcodeEditor>
           </value>
         </entry>
