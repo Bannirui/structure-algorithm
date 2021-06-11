@@ -45,7 +45,18 @@ public class TeemoAttacking {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findPoisonedDuration(int[] timeSeries, int duration) {
-
+            int length = timeSeries.length;
+            int total = 0;
+            for (int i = 0; i < length - 1; i++) {
+                // 当前在第i 被攻击duration
+                if ((timeSeries[i] + duration) < timeSeries[i + 1]) {
+                    total += duration;
+                } else {
+                    total += (timeSeries[i + 1] - timeSeries[i]);
+                }
+            }
+            total += duration;
+            return total;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
