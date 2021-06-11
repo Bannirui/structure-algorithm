@@ -27,11 +27,43 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashset.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashset.java" />
+              <option name="questionId" value="816" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/JewelsAndStones.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/JewelsAndStones.java" />
               <option name="questionId" value="782" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestTriangleArea.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestTriangleArea.java" />
+              <option name="questionId" value="830" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MostCommonWord.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MostCommonWord.java" />
+              <option name="questionId" value="837" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SubdomainVisitCount.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SubdomainVisitCount.java" />
+              <option name="questionId" value="829" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -48,6 +80,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/TeemoAttacking.java" />
               <option name="questionId" value="495" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UnivaluedBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UnivaluedBinaryTree.java" />
+              <option name="questionId" value="1005" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/XOfAKindInADeckOfCards.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/XOfAKindInADeckOfCards.java" />
+              <option name="questionId" value="950" />
             </LeetcodeEditor>
           </value>
         </entry>
