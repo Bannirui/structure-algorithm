@@ -67,6 +67,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LicenseKeyFormatting.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LicenseKeyFormatting.java" />
+              <option name="questionId" value="482" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MinimumCostToMoveChipsToTheSamePosition.java">
           <value>
             <LeetcodeEditor>
