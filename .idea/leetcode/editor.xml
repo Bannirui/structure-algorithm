@@ -35,6 +35,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DistributeCandies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DistributeCandies.java" />
+              <option name="questionId" value="575" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/FibonacciNumber.java">
           <value>
             <LeetcodeEditor>
@@ -75,6 +83,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst.java" />
+              <option name="questionId" value="530" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MinimumCostToMoveChipsToTheSamePosition.java">
           <value>
             <LeetcodeEditor>
@@ -96,6 +112,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberComplement.java" />
               <option name="questionId" value="476" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/PerfectNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/PerfectNumber.java" />
+              <option name="questionId" value="507" />
             </LeetcodeEditor>
           </value>
         </entry>
