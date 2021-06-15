@@ -47,6 +47,11 @@ package leetcode.editor.cn;
 // Related Topics 设计 哈希表
 // 👍 163 👎 0
 
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Objects;
+
 public class DesignHashset {
     public static void main(String[] args) {
         Solution solution = new DesignHashset().new Solution();
@@ -55,22 +60,62 @@ public class DesignHashset {
     //leetcode submit region begin(Prohibit modification and deletion)
     class MyHashSet {
 
+        /**
+         * 数组容量
+         */
+        private static final int CAPACITY = 106;
+
+        /**
+         * 数据容器
+         */
+        private LinkedList[] data;
+
         /** Initialize your data structure here. */
         public MyHashSet() {
-
+            this.data = new LinkedList[CAPACITY];
+            for (int i = 0; i < CAPACITY; i++) {
+                data[i] = new LinkedList<Integer>();
+            }
         }
 
         public void add(int key) {
-
+            int index = hash(key);
+            Iterator<Integer> iterator = data[index].iterator();
+            while (iterator.hasNext()) {
+                Integer num = iterator.next();
+                if (num == key) {
+                    return;
+                }
+            }
+            data[index].offerLast(key);
         }
 
         public void remove(int key) {
-
+            int index = hash(key);
+            Iterator<Integer> iterator = data[index].iterator();
+            while (iterator.hasNext()) {
+                Integer num = iterator.next();
+                if (num == key) {
+                    data[index].remove(key);
+                }
+            }
         }
 
         /** Returns true if this set contains the specified element */
         public boolean contains(int key) {
+            int index = hash(key);
+            Iterator<Integer> iterator = data[index].iterator();
+            while (iterator.hasNext()) {
+                Integer num = iterator.next();
+                if (num == key) {
+                    return true;
+                }
+            }
+            return false;
+        }
 
+        public int hash(int key) {
+            return key % CAPACITY;
         }
     }
 
