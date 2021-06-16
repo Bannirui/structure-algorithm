@@ -11,11 +11,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestTriangleArea.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestTriangleArea.java" />
+              <option name="questionId" value="830" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java" />
               <option name="questionId" value="824" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SubdomainVisitCount.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SubdomainVisitCount.java" />
+              <option name="questionId" value="829" />
             </LeetcodeEditor>
           </value>
         </entry>
