@@ -11,43 +11,11 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashmap.java">
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashmap.java" />
-              <option name="questionId" value="817" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashset.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashset.java" />
-              <option name="questionId" value="816" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotateString.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotateString.java" />
-              <option name="questionId" value="812" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotatedDigits.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotatedDigits.java" />
-              <option name="questionId" value="804" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueMorseCodeWords.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueMorseCodeWords.java" />
-              <option name="questionId" value="822" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java" />
+              <option name="questionId" value="824" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -376,6 +344,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DeleteNodeInALinkedList.java" />
               <option name="questionId" value="237" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashmap.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/DesignHashmap.java" />
+              <option name="questionId" value="817" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -987,6 +963,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfLinesToWriteString.java" />
+              <option name="questionId" value="824" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NumberOfSegmentsInAString.java">
           <value>
             <LeetcodeEditor>
@@ -1227,6 +1211,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotateString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotateString.java" />
+              <option name="questionId" value="812" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotatedDigits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RotatedDigits.java" />
+              <option name="questionId" value="804" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RottingOranges.java">
           <value>
             <LeetcodeEditor>
@@ -1464,6 +1464,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueBinarySearchTrees.java" />
               <option name="questionId" value="96" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueMorseCodeWords.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/UniqueMorseCodeWords.java" />
+              <option name="questionId" value="822" />
             </LeetcodeEditor>
           </value>
         </entry>
