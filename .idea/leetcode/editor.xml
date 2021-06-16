@@ -11,51 +11,11 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/BinaryGap.java">
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RangeSumOfBst.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/BinaryGap.java" />
-              <option name="questionId" value="899" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/FindTheTownJudge.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/FindTheTownJudge.java" />
-              <option name="questionId" value="1039" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestPerimeterTriangle.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestPerimeterTriangle.java" />
-              <option name="questionId" value="1018" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MiddleOfTheLinkedList.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MiddleOfTheLinkedList.java" />
-              <option name="questionId" value="908" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NRepeatedElementInSize2nArray.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NRepeatedElementInSize2nArray.java" />
-              <option name="questionId" value="1001" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.java" />
-              <option name="questionId" value="1019" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RangeSumOfBst.java" />
+              <option name="questionId" value="975" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -715,6 +675,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestPerimeterTriangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestPerimeterTriangle.java" />
+              <option name="questionId" value="1018" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/LargestTriangleArea.java">
           <value>
             <LeetcodeEditor>
@@ -883,6 +851,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MiddleOfTheLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MiddleOfTheLinkedList.java" />
+              <option name="questionId" value="908" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/MinCostClimbingStairs.java">
           <value>
             <LeetcodeEditor>
@@ -984,6 +960,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NAryTreePostorderTraversal.java" />
               <option name="questionId" value="776" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NRepeatedElementInSize2nArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/NRepeatedElementInSize2nArray.java" />
+              <option name="questionId" value="1001" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1160,6 +1144,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/PowerOfTwo.java" />
               <option name="questionId" value="231" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RangeSumOfBst.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/RangeSumOfBst.java" />
+              <option name="questionId" value="975" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1432,6 +1424,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/Sqrtx.java" />
               <option name="questionId" value="69" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.java" />
+              <option name="questionId" value="1019" />
             </LeetcodeEditor>
           </value>
         </entry>
