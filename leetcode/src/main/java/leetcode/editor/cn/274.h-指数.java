@@ -1,8 +1,10 @@
+import java.util.Arrays;
+
 /*
  * @Author: dingRui
  * @Date: 2021-08-03 15:41:46
  * @LastEditors: dingRui
- * @LastEditTime: 2021-08-03 16:07:11
+ * @LastEditTime: 2021-08-03 16:14:02
  * @Descriptio:
  */
 /*
@@ -14,32 +16,16 @@
 // @lc code=start
 class Solution {
     public int hIndex(int[] citations) {
-        // 二分
-        int low = 0, high = citations.length;
-        while (low <= high) {
-            int mid = low + ((high - low) >> 1);
-            boolean check = this.check(citations, mid);
-            if (check) {
-                low = mid;
+        int h = 0;
+        Arrays.sort(citations);
+        for (int i = citations.length - 1; i >= 0; i--) {
+            if (citations[i] > h) {
+                h++;
             } else {
-                high = mid - 1;
+                break;
             }
         }
-        return low;
-
-    }
-
-    private boolean check(int[] citations, int num) {
-        int count = 0;
-        for (int citation : citations) {
-            if (citation >= num) {
-                count++;
-            }
-            if (count >= num) {
-                return true;
-            }
-        }
-        return false;
+        return h;
     }
 }
 // @lc code=end
