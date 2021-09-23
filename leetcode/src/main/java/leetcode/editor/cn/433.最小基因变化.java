@@ -26,13 +26,13 @@ class Solution {
         return this.bfs(startSet, endSet, bankSet, counts);
     }
 
-    // 款搜
+    // 宽搜
     private int bfs(Set<String> startSet, Set<String> endSet, Set<String> bankSet, int counts) {
         // base case
         if (startSet.isEmpty()) {
             return -1;
         }
-        // 深搜从小集合开始
+        // 宽搜从小集合开始
         if (startSet.size() > endSet.size()) {
             return this.bfs(endSet, startSet, bankSet, counts);
         }
@@ -51,7 +51,7 @@ class Solution {
                         // 基因串变换后结果
                         changedStart.setCharAt(i, candidate[j]);
                         String changedStartStr = changedStart.toString();
-                        // 已经转换为了目标序列 当前的转换次数就是最少的
+                        // 已经转变成了目标序列 当前的转换次数就是最少的
                         if (endSet.contains(changedStartStr)) {
                             return counts + 1;
                         } else {
@@ -64,7 +64,7 @@ class Solution {
                 }
             }
         }
-        // 下一轮深搜
+        // 下一轮宽搜
         return this.bfs(nextStartSet, endSet, bankSet, counts + 1);
     }
 }
