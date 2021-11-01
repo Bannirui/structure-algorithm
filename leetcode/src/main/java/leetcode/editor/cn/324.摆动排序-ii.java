@@ -7,6 +7,7 @@
 // @lc code=start
 class Solution {
     public void wiggleSort(int[] nums) {
+        // 穿插
         int[] copyNums = nums.clone();
         Arrays.sort(copyNums);
         int len = nums.length;
