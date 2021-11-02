@@ -24,10 +24,13 @@ class Solution {
                 }else{
                     // 遇到 峰-谷-峰 出栈
                     while(!descStack.isEmpty() && height[i]>height[descStack.peek()]){
+                        // 右峰
                         int rightIdx = i;
                         int rightHeight = height[i];
+                        // 中间谷
                         int midIdx=descStack.pop();
                         int midHeight = height[midIdx];
+                        // 是否存在左边峰
                         if(!descStack.isEmpty()){
                             int leftIdx = descStack.peek();
                             int leftHeight =height[leftIdx];
