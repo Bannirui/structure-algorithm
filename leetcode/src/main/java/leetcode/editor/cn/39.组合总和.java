@@ -27,7 +27,6 @@ class Solution {
             return;
         }
         // 在candidates中找数字 和为left
-    
         int curVal = candidates[idx];
         // 选用当前值
         // 保证remain>=0
