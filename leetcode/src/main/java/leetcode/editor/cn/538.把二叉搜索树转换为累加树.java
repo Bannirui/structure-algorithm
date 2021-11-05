@@ -1,0 +1,41 @@
+/*
+ * @lc app=leetcode.cn id=538 lang=java
+ *
+ * [538] 把二叉搜索树转换为累加树
+ */
+
+// @lc code=start
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+
+    private int sum=0;
+
+    public TreeNode convertBST(TreeNode root) {
+        // base case
+        if(root==null){
+            return null;
+        }
+        // 整个右子树
+        this.convertBST(root.right);
+        this.sum+=root.val;
+        root.val=sum;
+        this.convertBST(root.left);
+        return root;
+    }
+}
+// @lc code=end
+
