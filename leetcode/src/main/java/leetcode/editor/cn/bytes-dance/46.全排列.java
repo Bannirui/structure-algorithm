@@ -7,33 +7,29 @@
 // @lc code=start
 class Solution {
 
-    private List<List<Integer>> res = new ArrayList<>();
-
-    private int size;
-
     public List<List<Integer>> permute(int[] nums) {
-        this.size = nums.length;
+        int len=0;
+        List<List<Integer>> ret = new ArrayList<>();
+        if(nums==null || (len=nums.length)==0) return ret;
         // default value is false
-        boolean[] used = new boolean[nums.length];
-        this.traceBack(nums, used, new ArrayList<Integer>());
-        return this.res;
+        boolean[] visit = new boolean[len];
+        this.dfs(nums, 0, visit, new ArrayList<Integer>(), ret);
+        return ret;
     }
 
-    private void traceBack(int[] nums, boolean[] used,List<Integer> path){
+    private void dfs(int[] nums, int idx, boolean[] visit, List<Integer> path, List<List<Integer>> ret){
         // base case
-        if(path.size()==this.size){
-            // gather
-            this.res.add(new ArrayList<>(path));
+        if(idx==nums.length){
+            ret.add(new ArrayList<>(path));
             return;
         }
-        // unused ele
-        for(int i=0;i<this.size;i++){
-            if(!used[i]){
-                boolean[] usedCpy = Arrays.copyOf(used, used.length);
-                usedCpy[i]=true;
+        for(int i=0;i<nums.length;i++){
+            if(!visit[i]){
+                boolean[] visitCpy = visit.clone();
+                visitCpy[i]=true;
                 List<Integer> pathCpy = new ArrayList<>(path);
                 pathCpy.add(nums[i]);
-                this.traceBack(nums, usedCpy, pathCpy);
+                this.dfs(nums, idx+1, visitCpy, pathCpy, ret);
             }
         }
     }
