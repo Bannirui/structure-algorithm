@@ -7,28 +7,30 @@
 // @lc code=start
 class Solution {
 
-
     public int findCircleNum(int[][] isConnected) {
         int len=0;
         if(isConnected==null || (len=isConnected.length)==0 || isConnected.length!=isConnected[0].length) throw new IllegalArgumentException();
-        int cnt=0;
-        boolean[] visit = new boolean[len];
+        int[] parent = new int[len];
+        for(int i=0;i<len;i++) parent[i]=i;
+
         for(int i=0;i<len;i++){
-            if(!visit[i]){
-                this.dfs(isConnected, visit, i);
-                cnt++;
+            for(int j=0;j<len;j++){
+                if(isConnected[i][j]==1) this.union(parent, i,j);
             }
         }
+
+        int cnt=0;
+        for(int i=0;i<len;i++) if(parent[i]==i) cnt++;
         return cnt;
     }
 
-    private void dfs(int[][] isConnected, boolean[] visit, int i){
-        for(int j=0;j<visit.length;j++){
-            if(!visit[j] && isConnected[i][j]==1){
-                visit[j]=true;
-                this.dfs(isConnected, visit, j);
-            }
-        }
+    private void union(int[] parent, int i, int j){
+        parent[parent[i]]=this.find(parent, j);
+    }
+
+    private int find(int[] parent, int i){
+        if(parent[i]!=i) parent[i]=this.find(parent, parent[i]);
+        return parent[i];
     }
 }
 // @lc code=end
